@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <div className="w-full bg-[var(--darker-dark)] text-white text-center py-12 gap-6 relative mt-24">
+    <div className="w-full bg-[var(--darker-dark)] text-white text-center py-12 gap-6 relative mt-24" id="contacts">
       
       <div
         className="absolute -top-12 left-0 w-full h-24 bg-gradient-to-b from-[var(--dark)] to-[var(--darker-dark)]"

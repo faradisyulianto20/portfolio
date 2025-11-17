@@ -21,7 +21,7 @@ export default function Card({ title, description, date, github, demo }) {
               <Button text={"View"} />
             </a>
           ) : (
-            <a href="demo">
+            <a href={demo}>
               <Button text={"Demo"} />
             </a>
           )}
