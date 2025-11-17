@@ -14,6 +14,9 @@ const projects = [
     category: "Computer Vision",
     github: "https://github.com/faradisyulianto20/deteksi-makanan",
     demo: "/Portfolio_FaradisYulianto.pdf",
+    image: [
+      "/projects/snacks.png"
+    ],
   },
   {
     title: "Emotion Detection",
@@ -25,6 +28,10 @@ kemudian hasil prediksi ditampilkan langsung di frame kamera.`,
     category: "Computer Vision",
     github: "https://github.com/faradisyulianto20/emotion-detection",
     demo: "/Portfolio_FaradisYulianto.pdf",
+    image: [
+      "/projects/emotion.png",
+      "/projects/emotion1.png"
+    ],
   },
   {
     title: "Text Detection",
@@ -34,6 +41,10 @@ dengan bounding box, dan menampilkan hasil OCR langsung pada frame video.`,
     category: "Computer Vision",
     github: "https://github.com/faradisyulianto20/text-detection",
     demo: "/Portfolio_FaradisYulianto.pdf",
+    image: [
+      "/projects/text.png",
+      "/projects/text1.png",
+    ],
   },
   {
     title: "Face Detection",
@@ -43,6 +54,10 @@ kamera dengan bantuan OpenCV.`,
     category: "Computer Vision",
     github: "https://github.com/faradisyulianto20/face-anomyzer",
     demo: "/Portfolio_FaradisYulianto.pdf",
+    image: [
+      "/projects/face.png",
+      "/projects/face1.png",
+    ],
   },
   {
     title: "Color Detection",
@@ -51,6 +66,40 @@ kamera dengan bantuan OpenCV.`,
     category: "Computer Vision",
     github: "https://github.com/faradisyulianto20/color-detection",
     demo: "/Portfolio_FaradisYulianto.pdf",
+    image: [
+      "/projects/warna.png"
+    ],
+  },
+  {
+    title: "Ramadhan Di Kampus",
+    description: "Website profile event Ramadhan di Kampus.",
+    date: "Not Finished Yet",
+    category: "Web Development",
+    github: "",
+    demo: "https://testing-rdk.vercel.app/",
+  },
+  {
+    title: "Universitas Global Nusantara",
+    description:
+      "Website profil Universitas Global Nusantara dengan fitur untuk melakukan pendaftaran dan pembayaran mahasiswa baru.",
+    date: "Not Finished Yet",
+    category: "Web Development",
+    github: "https://github.com/faradisyulianto20/universitas_global_nusantara",
+    demo: "",
+  },
+  {
+    title: "Deepseek AI Chat",
+    description: `Web chatbot yang saya buat untuk belajar React, khususnya dalam membangun 
+chatbox interaktif berbasis AI lokal dengan pengelolaan state dan input secara 
+real-time.`,
+    date: "2025",
+    category: "Web Development",
+    github: "https://github.com/faradisyulianto20/deepseek-chat",
+    demo: "/Portfolio_FaradisYulianto.pdf",
+    image: [
+      "/projects/deepseek.png",
+      "/projects/deepseek1.png",
+    ],
   },
   {
     title: "First Portfolio",
@@ -60,6 +109,21 @@ langsung ke email melalui Firebase.`,
     category: "Web Development",
     github: "https://github.com/faradisyulianto20/porto",
     demo: "https://portfolio-faradisyulianto20s-projects.vercel.app/",
+  },
+  {
+    title: "MasRio (Parody Mario)",
+    description: `Mas Rio Coin Hunt, game adventure 2D berbasis labirin. Seorang petualang yang 
+terjebak di dalam sebuah labirin berbentuk persegi dan di setiap sudut labirin, 
+tersebar beberapa koin emas namun koin-koin tersebut dijaga oleh monster 
+penjaga yang berkeliaran di dalam labirin.`,
+    date: "2025",
+    category: "Game",
+    github: "https://github.com/xirenaaa/OOP-MasRio",
+    demo: "/Portfolio_FaradisYulianto.pdf",
+    image: [
+      "/projects/mario.png",
+      "/projects/masrio.png",
+    ],
   },
   {
     title: "Golek Mobil",
@@ -72,6 +136,12 @@ dan penyewaan serta untuk menambahkan dan juga menghapus data mobil.`,
     category: "Web Development",
     github: "https://github.com/faradisyulianto20/ppw_akhir",
     demo: "/Portfolio_FaradisYulianto.pdf",
+    image: [
+      "/projects/golekmobil.png",
+      "/projects/golekmobil1.png",
+      "/projects/golekmobil2.png",
+      "/projects/golekmobil3.png",
+    ],
   },
   {
     title: "E-Commerce",
@@ -82,27 +152,9 @@ dan autentikasi.`,
     category: "Web Development",
     github: "https://github.com/faradisyulianto20/belajar-react-firebase",
     demo: "/Portfolio_FaradisYulianto.pdf",
-  },
-  {
-    title: "Deepseek AI Chat",
-    description: `Web chatbot yang saya buat untuk belajar React, khususnya dalam membangun 
-chatbox interaktif berbasis AI lokal dengan pengelolaan state dan input secara 
-real-time.`,
-    date: "2025",
-    category: "Web Development",
-    github: "https://github.com/faradisyulianto20/deepseek-chat",
-    demo: "/Portfolio_FaradisYulianto.pdf",
-  },
-  {
-    title: "MasRio (Parody Mario)",
-    description: `Mas Rio Coin Hunt, game adventure 2D berbasis labirin. Seorang petualang yang 
-terjebak di dalam sebuah labirin berbentuk persegi dan di setiap sudut labirin, 
-tersebar beberapa koin emas namun koin-koin tersebut dijaga oleh monster 
-penjaga yang berkeliaran di dalam labirin.`,
-    date: "2025",
-    category: "Game",
-    github: "https://github.com/xirenaaa/OOP-MasRio",
-    demo: "/Portfolio_FaradisYulianto.pdf",
+    image: [
+      "/projects/ecommerce.png",
+    ],
   },
   {
     title: "ASSETS",
@@ -112,6 +164,13 @@ kabinet.`,
     category: "Web Development",
     github: "https://github.com/d-arsya/assetsugm",
     demo: "/Portfolio_FaradisYulianto.pdf",
+    image: [
+      "/projects/assets.png",
+      "/projects/assets2.png",
+      "/projects/assets3.png",
+      "/projects/assets4.png",
+      "/projects/assets5.png",
+    ],
   },
   {
     title: "Devil Gama Technology",
@@ -121,23 +180,6 @@ dan alur pendaftaran DGT.`,
     category: "Web Development",
     github: "https://github.com/faradisYulianto21/dgtech.github.io",
     demo: "https://dgtech-github-io.vercel.app/",
-  },
-  {
-    title: "Universitas Global Nusantara",
-    description:
-      "Website profil Universitas Global Nusantara dengan fitur untuk melakukan pendaftaran dan pembayaran mahasiswa baru.",
-    date: "Not Finished Yet",
-    category: "Web Development",
-    github: "https://github.com/faradisyulianto20/universitas_global_nusantara",
-    demo: "",
-  },
-  {
-    title: "Ramadhan Di Kampus",
-    description: "Website profile event Ramadhan di Kampus.",
-    date: "Not Finished Yet",
-    category: "Web Development",
-    github: "",
-    demo: "https://testing-rdk.vercel.app/",
   },
 ];
 
@@ -172,6 +214,7 @@ export default function Projects() {
             date={project.date}
             github={project.github}
             demo={project.demo}
+            image={project.image}
           />
         ))}
       </section>
